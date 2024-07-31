@@ -1,0 +1,50 @@
+/* styles.css */
+
+.navbar {
+    background-color: #187bde;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  .navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #1960a6;
+  }
+  
+  header {
+    background-image: url(src/assets/puppybowl.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .title {
+    color: white;
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  
+  .info-bar p {
+    background-color: #187bde;
+    text-align: center;
+    color: white;
+    margin: 0px;
+  }
+  
